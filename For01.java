@@ -1,0 +1,17 @@
+package study4;
+
+public class For01 {
+
+	public static void main(String[] args) {
+
+		int sum = 0;
+		
+		for(int i=1; i<=5; i++) {
+			sum += i;
+		}
+		System.out.println("누적합 : " + sum);
+		
+		//1~10까지 합을 구하는 for문
+	}
+
+}
